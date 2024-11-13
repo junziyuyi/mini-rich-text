@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "node": "./node"
+  },
+  "disableScroll": true
+}

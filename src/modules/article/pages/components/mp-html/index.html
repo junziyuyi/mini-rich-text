@@ -1,0 +1,10 @@
+<!-- 主组件 -->
+<view class="_root rich {{selectable?'_select':''}}" style="{{containerStyle}}">
+  <!-- <slot wx:if="{{!nodes[0]}}" /> -->
+  <!-- 节点树 -->
+  <node
+    id="_root"
+    childs="{{nodes}}"
+    opts="{{[lazyLoad,loadingImg,errorImg,showImgMenu,selectable]}}"
+  />
+</view>

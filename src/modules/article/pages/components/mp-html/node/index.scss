@@ -1,0 +1,59 @@
+.br {
+  &_root {
+    padding-bottom: 42px;
+  }
+
+  &_img {
+    position: relative;
+    max-width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+
+  &_h1,
+  &_h2,
+  &_h3,
+  &_h4,
+  &_h5,
+  &_h6,
+  &_p,
+  &_a,
+  &_label {
+    padding: 0 16px;
+  }
+
+  &_a {
+    text-decoration: underline;
+    color: #0052d9;
+  }
+
+  &_table {
+    display: table;
+    width: 96%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+
+    .ue-table-interlace-color-double {
+      background-color: #f7faff;
+    }
+  }
+
+  &_tr {
+    display: table-row;
+  }
+
+  &_td,
+  &_th {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.5;
+  }
+  &_tbody {
+    &_tr {
+      width: 100%;
+    }
+  }
+}
