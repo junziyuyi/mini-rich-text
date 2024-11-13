@@ -1,6 +1,6 @@
 import { defineComponent } from '@vue-mini/core';
 
-import { NodeItem } from './type.d';
+import { NodeItem } from './type';
 
 const Parser = require('./parser');
 
